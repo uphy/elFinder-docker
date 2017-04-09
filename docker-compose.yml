@@ -1,0 +1,10 @@
+version: "2"
+
+services:
+  elfinder:
+    build: .
+    ports:
+      - "80:80"
+    volumes:
+      - "./data:/data"
+    
